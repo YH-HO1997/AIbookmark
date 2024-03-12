@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,  
+    "name": "智慧書籤分類元件",
+    "version": "2.0",
+    "description": "AI幫你分類書籤",
+    "permissions": [
+      "activeTab",
+      "bookmarks"  
+    ],
+    "action": {
+      "default_popup": "index.html"
+    }
+}
+  
