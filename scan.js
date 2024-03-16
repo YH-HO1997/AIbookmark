@@ -39,7 +39,7 @@ function findUnclassifiedBookmarks(bookmarkNodes, scanTarget, unclassifiedBookma
           findUnclassifiedBookmarks(node.children, scanTarget, unclassifiedBookmarks);
         } else {
           // 檢查書籤是否未分類（層級為 1）
-          if (node.parentId === "2") {
+          if (node.parentId === "1") {
             // 將未分類書籤加入 unclassifiedBookmarks 陣列
             unclassifiedBookmarks.push({
               title: node.title,
