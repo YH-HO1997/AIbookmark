@@ -53,7 +53,7 @@ function findUnclassifiedBookmarks(bookmarkNodes, scanTarget, unclassifiedBookma
   }
 
 function callAI(unclassifiedBookmarks, setupBookmarks, addLocation) {
-    const API_KEY = "AIzaSyAh3hMqtSmnKreBh57g2__UjcUB9UtFexI"; // 記得替換為你的實際OpenAI API金鑰
+    const API_KEY = "api_key"; // 記得替換為你的實際OpenAI API金鑰
     const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
     const data = {
